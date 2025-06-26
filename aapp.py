@@ -10,7 +10,7 @@ import joblib
 import streamlit as st
 
 model= tf.keras.models.load_model("Diabetic_model.h5")
-scaler= joblib.load("scaler.pkl")
+scaler= joblib.load("Scaler.pkl")
 
 st.set_page_config(page_title="Diabetes Prediction")
 st.title("Diabetes Prediction")
